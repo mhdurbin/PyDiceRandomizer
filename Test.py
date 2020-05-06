@@ -2,8 +2,10 @@ import random
 
 class Dice_Randomizer:
 
+    #Prompting for the set of dice to be rolled
     type_prompt = input ("Enter the dice roll(s) in following format (#d# # of times): ")
 
+    #Should change this to be dynamic
     dicenum_num = int(type_prompt[0])
     type_num = int(type_prompt[2])
     iter_num = int(type_prompt[4])
